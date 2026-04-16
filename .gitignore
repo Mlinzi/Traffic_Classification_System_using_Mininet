@@ -1,0 +1,21 @@
+# Ignore everything by default.
+*
+
+# Keep only the main project files and folders.
+!.gitignore
+!README.md
+!REPORT.md
+!REPORT.docx
+!main.py
+!requirements.txt
+!traffic_classification/
+!traffic_classification/**
+!tests/
+!tests/**
+!report_assets/
+!report_assets/**
+
+# Ignore generated and environment-specific files even inside tracked folders.
+__pycache__/
+*.pyc
+.venv/
